@@ -46,10 +46,10 @@ try{
             email,
             password: hashedPassword,
             verifycode:verifyCode,
-            verifycodeExpiry:expiryDate,
+            verifyCodeExpiry:expiryDate,
             isVerified:false,
             isAcceptingMessages:true,
-            messages:[],
+            message:[],
         })
 
         await newUser.save()
