@@ -79,3 +79,5 @@ const MessageCard = ({ message, onMessageDelete }: MessageCardProps) => {
     </>
   );
 };
+
+export default MessageCard;
